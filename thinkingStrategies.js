@@ -1,4 +1,4 @@
-const thinkingStrategies = [
+export const thinkingStrategies = [
   {
     id: 1,
     type: ['oblique'],

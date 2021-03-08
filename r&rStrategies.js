@@ -1,7 +1,7 @@
-[
+export const randRStrategies = [
   {
     id: 1,
-    type: 'rest',
+    type: ['rest'],
     name: "some Oblique R&R",
     content: "Do nothing for as long as possible.",
     resource: 'https://en.wikipedia.org/wiki/Oblique_Strategies',
@@ -9,7 +9,7 @@
   },
   {
     id: 2,
-    type: 'rest',
+    type: ['rest'],
     name: "going to bed",
     content: "If you need help, hava cup of tea first and listen to an audiobook",
     resource: '',
@@ -17,7 +17,7 @@
   },
   {
     id: 3,
-    type: 'rest',
+    type: ['rest'],
     name: "taking a cat nap",
     content: "set a timer: at least 15 minutes",
     resource: '',
@@ -25,7 +25,7 @@
   },
   {
     id: 4,
-    type: 'nourishment',
+    type: ['nourishment'],
     name: "having something sweet",
     content: "sugar isn't always the answer, but today it might just be what you need",
     resource: ,
@@ -33,7 +33,7 @@
   },
   {
     id: 5,
-    type: 'nourishment',
+    type: ['nourishment'],
     name: "drinking water",
     content: "if you're a millenial who can't drink tap water, go get a la croix or something",
     resource: ,
@@ -41,7 +41,7 @@
   },
   {
     id: 6,
-    type: 'nourishment',
+    type: ['nourishment'],
     name: "having some real food",
     content: "With protein in it. Take some time to cook for yourself. It is NOT a waste of time.",
     resource: ,
@@ -49,7 +49,7 @@
   },
   {
     id: 7,
-    type: 'movement',
+    type: ['movement'],
     name: "yoga",
     content: "breathe in, breath out. Now...forward fold, halfway lift, downward dog, mountain pose x 3",
     resource: 'https://www.popsugar.com/fitness/Five-Minute-Yoga-Sequence-34770047',
@@ -57,7 +57,7 @@
   },
   {
     id: 8,
-    type: 'movement',
+    type: ['movement'],
     name: "getting your blood pumping!",
     content: "Try this: 3x 20 jumping jacks + 20 sit-ups",
     resource: '',
@@ -65,7 +65,7 @@
   },
   {
     id: 9,
-    type: 'movement',
+    type: ['movement'],
     name: "stretching",
     content: "just feel your body for a few minutes, maybe it has better ideas than you",
     resource: '',
