@@ -8,6 +8,8 @@ app.set('port', process.env.PORT || 3001);
 
 app.locals.title = 'Unstuck API';
 
+app.locals.strategySubmissions = [];
+
 app.locals.thinkingStrategies = [
   {
     id: 1,
@@ -330,6 +332,16 @@ app.get('/api/v1/rr/movement', (request, response) => {
   response.json({selection});
 });
 
+app.get('/api/v1/submissions', (request, response) => {
+  const strategies = app.locals.strategySubmissions;
+  response.json({strategies});
+});
+
+app.post('/api/v1/submissions', (request, response) => {
+  const newSubmission = request.body;
+  app.locals.strategySubmissions.push(newSubmission)
+  response.status(201).json(app.locals.strategySubmissions);
+});
 
 
 app.use(express.json());
