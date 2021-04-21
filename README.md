@@ -1,5 +1,5 @@
-## RESTful API for the [Rubberduck](https://github.com/kellydinneen/rubberduck) app.
-### Deployed on Heroku at https://unstuck-rubberduck-api.herokuapp.com;
+## RESTful API for the [Rubberduck](https://github.com/kellydinneen/rubberduck) app
+### Deployed on Heroku at https://unstuck-rubberduck-api.herokuapp.com
 
 Recommendations for unsticking oneself are categorized as either thinking strategies or rest and relaxation strategies.
 
